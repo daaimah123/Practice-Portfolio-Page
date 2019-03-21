@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/buildingandsky.jpeg') no-repeat top center ;
+  background: url('images/building_and_sky.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -140,20 +140,9 @@ footer ul li {
 }
 
  a.fa {
-  
+  display: inline;
 } 
-/* a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.google {
-  background-image: url(images/google.svg);
-} */
+
 a.fa:hover {
   opacity: 1;
 }
