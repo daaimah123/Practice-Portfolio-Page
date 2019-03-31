@@ -1,64 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html><head>
   <meta charset="utf-8">
-  <title>Daaimah Tibrey's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daaimah Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
-  <body>
+<body>
+  <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
+  <header>
+    <h2><a href="#">Full Stack Software Engineer</a></h2>
+    <nav>
+      <li><a href="Linked_Pages/resume_index.html">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+    </nav>
+  </header>
 
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Daaimah Tibrey</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="resume_index.html">Experience</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+  <section class="hero">
+    <div class="background-image" style='background-image: url("assets/img/main.jpg");'></div>
+    <div class="hero-content-area">
+      <h1>Daaimah Tibrey<br/><img src='images/DaaimahFace.png' alt='brown girl half smile'></h1>
+      <h3 >Hayward, CA</h3>
+      <a class="btn" href="#">Contact Me</a>
+<!--             <li><a href="https://twitter.com/DTibrey" class="fa fa-twitter" target="_blank"></a></li>
+      <li><a href="https://www.linkedin.com/in/daaimah123/" class="fa fa-linkedin" target="_blank"></a></li>
+      <li><a href="https://github.com/daaimah123" class="fa fa-github" target="_blank"></a></li>
+      <li><a href="mailto:daaimah12392@gmail.com" class="fa fa-envelope" target="_blank"></a></li>   -->
     </div>
+  </section>
+  
+  <section class='destinations'>
+  <h3 class="title">Challenging Tech to Build Intrapersonally</h3>
+      <p>Constantly grow and work with people who can challenge me while making an impactful difference in the community I can identify with! Utilizing MERN stack, HTML, CSS, Javascrip, PHP, SQL, with the ability to continue learning.
+</p> 
+    <hr/>
+    <p>PROJECT PHOTOS HERE, remove this line</p>
+    <ul class="grid">
+      <li class="small" style='background-image: url("https://thumbs.dreamstime.com/z/mountain-landscape-majestic-sunset-mountains-hdr-image-141284365.jpg");'></li>
+      <li class="large" style='background-image: url("https://thumbs.dreamstime.com/z/easter-nest-golden-eggs-happy-easter-holiday-greeting-symbol-stylish-natural-wooden-grass-nest-golden-quail-eggs-142357327.jpg");'></li>
+      <li class="large" style='background-image: url("https://thumbs.dreamstime.com/z/licking-surreal-dog-face-waiting-delicious-treat-yammy-food-foxy-dog-muzzle-funny-violet-curly-wig-hairstyle-yellow-background-142438638.jpg");'></li>
+      <li class="small" style='background-image: url("https://thumbs.dreamstime.com/z/paddy-rice-field-landscape-view-baan-pa-bong-piang-chiangmai-thailand-paddy-rice-field-landscape-view-baan-pa-bong-piang-142479457.jpg");'></li>   
+  </section>
+  <section class="packages">
+  <h3 class='title'>About Me</h3>
+    <p>Coming from a nonprofit framework braking barriers for underserved populations has always been a passion, it gave me agency to defy challenges with evolving determination. In relocating to San Francisco, navigating my own exceptional barriers, I grew closer to tech. My normative transitioned from regularly being without my phone for days at a time, into employing it as my daily personal broker. Resourcefully, I leveraged technologies it held to discover, advocate, and resolve my circumstances. My experience heightened my awareness to disconnect between technology and unequal access to opportunity.<br/><br/>
+I've cultivated a unique skillset having been a professional artisan sandwhich maker, a grant writer and data analyst, a grassroots developmental operations management, a government contracted liason for special population workforce development, and my favorite and a director of two litte people operations 24/7.</p>
+      <hr>
 
-    <header>
-      <img src="./images/DaaimahFace.png" alt="Image of Daaimah with Headband and Glasses" class="profile-image">
-      <h1 class="tag name">Hello, I’m Daaimah.</h1>
-      <a href="https://twitter.com/DTibrey" class="fa fa-twitter" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/daaimah123/" class="fa fa-linkedin" target="_blank"></a>
-      <a href="https://github.com/daaimah123" class="fa fa-github" target="_blank"></a>
-      <a href="mailto:daaimah12392@gmail.com" class="fa fa-envelope" target="_blank"></a>  
-      <p class="tag location">My home is Hayward, California.</p>
-    </header>
-
-    <main class="flex">      
-      <div class="card">
-        <h2>Background</h2>
-        <p>Coming from a nonprofit framework braking barriers for underserved populations has always been a passion, it gave me agency to defy challenges with evolving determination. In relocating to San Francisco, navigating my own exceptional barriers, I grew closer to tech. My normative transitioned from regularly being without my phone for days at a time, into employing it as my daily personal broker. Resourcefully, I leveraged technologies it held to discover, advocate, and resolve my circumstances. My experience heightened my awareness to disconnect between technology and unequal access to opportunity.</p>
-        <p>I've cultivated a unique skillset having been a professional artisan sandwhich maker, a grant writer and data analyst, a grassroots developmental operations management, a government contracted liason for special population workforce development, and <strong><em>my favorite</em></strong> and a director of two litte people operations 24/7. </p>
-        <ul>
-          <li>Want to learn more, view <a href="resume_index.html">my resume</a> or my <a href="#">blog</a>.</li>
-        </ul>
-      </div> 
-
-      <div class="card">
-        <h2>Goals</h2>
-        <p>Utilize my knowledge and skills to constantly grow and work with people who can challenge me while making an impactful difference in the community!</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>MERN</li>
-          <li>PHP</li>
-          <li>SQL</li>
-        </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
-
-    </main>
+      <ul class="grid">
+        <li>
+          <i class="fa fa-compass fa-4x"></i>
+          <h4>Header</h4>
+          <p>Blog Post Exerpt...Description and purposeful sentence here. More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.</p>
+        </li>
+        <li>
+          <i class="fa fa-camera-retro fa-4x"></i>
+          <h4>Header Here</h4>
+          <p>Blog Post Exerpt...Description and purposeful sentence here. More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.</p>
+        </li>
+        <li>
+          <i class="fa fa-bicycle"></i>
+          <h4>Header Here</h4>
+          <p>Blog Post Exerpt...Description and purposeful sentence here. More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.</p>
+        </li>
+        <li>
+          <i class="fa fa-flag-checkered fa-4x"></i>
+          <h4>Header Here</h4>
+          <p>Blog Post Exerpt...Description and purposeful sentence here. More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.  More stuff here, more stuff and more stuff.</p>
+        </li>
+      </ul>
+    </section>
     <footer>
 
-      
     </footer>
-  </body>
-  </html>
+</body></html>
