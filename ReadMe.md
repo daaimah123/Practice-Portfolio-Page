@@ -1,0 +1,1 @@
+Playground for abilities to link pages, and test combinations (i.e. React App connected to standing html pages)
